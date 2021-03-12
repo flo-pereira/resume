@@ -653,6 +653,10 @@ video {
   padding-top: 2rem;
 }
 
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
 .sticky {
   position: sticky;
 }
@@ -856,7 +860,7 @@ ul li {
   display: none;
   position: absolute;
   top: 1rem;
-  left: -4rem;
+  left: -3rem;
 }
 
 @media (min-width: 1024px) {
@@ -918,7 +922,7 @@ ul li {
   font-size: 0.75rem;
   line-height: 1rem;
   padding-top: 0.25rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
   font-style: italic;
 }
 
@@ -1064,6 +1068,10 @@ ul li {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:pr-4 {
+    padding-right: 1rem;
   }
 
   .lg\:pr-8 {

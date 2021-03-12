@@ -71,7 +71,7 @@ ul li {
 }
 
 #work li:before {
-  @apply hidden absolute lg:block top-4 -left-16 lg:w-4 lg:h-4 bg-gray-600;
+  @apply hidden absolute bg-gray-600 top-4 -left-12 lg:block lg:w-4 lg:h-4;
   content: "";
 }
 
@@ -92,7 +92,7 @@ ul li {
 }
 
 .desc {
-  @apply italic text-xs pt-1 pb-2 lg:pt-2 lg:pb-4 md:text-sm;
+  @apply italic text-xs pt-1 pb-4 lg:pt-2 lg:pb-4 md:text-sm;
 }
 
 #contact {
